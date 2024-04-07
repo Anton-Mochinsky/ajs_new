@@ -1,4 +1,4 @@
-const { orderByProps } = require('./orderByProps');
+const { orderByProps } = require('../orderByProps');
 
 test('order props correctly', () => {
     const obj = {name: 'мечник', health: 10, level: 2, attack: 80, defence: 40};

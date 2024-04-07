@@ -1,4 +1,4 @@
-const getHealthStatus = require('./healthStatus');
+const getHealthStatus = require('../healthStatus');
 
 describe('getHealthStatus', () => {
     it('should return "healthy" for health more than 50', () => {
